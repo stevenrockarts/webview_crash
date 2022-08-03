@@ -1,0 +1,101 @@
+html {
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    background-color: white;
+    margin: 0;
+}
+
+#main-content {
+    padding: 16px;
+}
+
+/* TABLES */
+/* 
+Generic Styling, for Desktops/Laptops 
+*/
+table { 
+    display: block;
+    width: 100%; 
+    border-collapse: collapse; 
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+    margin: 0 auto;
+    max-width: none;
+}
+
+tbody {
+    display: table;
+    width: 100%;
+}
+
+td, th { 
+    padding: 6px; 
+    border: 1px solid #ccc; 
+    text-align: left; 
+}
+
+tbody tr {
+    border: 1px solid transparent;
+}
+
+tbody tr td{
+    border: none;
+    border-bottom: 1px solid #eee; 
+    position: relative;
+    text-align:left;
+    min-width: 100px;
+}
+
+tbody tr td > img {
+    max-height: 50px;
+    object-fit: contain;
+}
+
+/* TABLES */
+iframe {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+.fr-view {
+    width: 100%;
+}
+
+.fr-video {
+    display: block;
+    width: 100%;
+    background-color: black;
+    margin: 20px 0;
+    padding: 0 !important;
+}
+.fr-video iframe {
+    height: 230px !important;
+    border: none;
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+}
+
+img {
+    width: 100% !important;
+}
+
+audio {
+    width: 100%;
+}
+
+pre {
+    overflow-x : scroll
+}
+
+blockquote {
+    border-left: solid 2px #5e35b1;
+    color: #5e35b1;
+    display: block;
+    padding-left: 5px;
+    margin: 1.5em 0;
+  }
